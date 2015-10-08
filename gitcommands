@@ -1,0 +1,54 @@
+git init
+  447  git add .
+  448  git status
+  449  git commit -am "my initial commit"
+  450  git status
+  451  clear
+  452  git status
+  453  git remote add origin https://github.com/yadagiri1125/curios.git
+  454  git status
+  455  git push origin master
+  456  cd ..
+  457  clear
+  458  ls
+  459  rm -rvf sample_project 
+  460  clear
+  461  git clone https://github.com/yadagiri1125/curios.git
+  462  ls 
+  463  unzip sample_project.zip 
+  464  clear
+  465  ls
+  466  cd sample_project/
+  467  clear
+  468  ls
+  469  git status
+  470  cd ..
+  471  clear
+  472  ls
+  473  rm -rvf sample_project
+  474  clear
+  475  ls
+  476  rm sample_project.zip 
+  477  clear
+  478  git clone https://github.com/yadagiri1125/curios.git
+  479  clear
+  480  ls
+  481  cd curios/
+  482  clear
+  483  ls
+  484  subl .
+  485  git status
+  486  clear
+  487  git status
+  488  git diff app/controllers/application_controller.rb
+  489  git diff Gemfile
+  490  clear
+  491  git status
+  492  git add .
+  493  git status
+  494  git commit -am "adds comments to gemfuile and adds samplemethodto applicatoion controller"
+  495  clear
+  496  git branch
+  497  git push origin master
+  498  clear
+  499  history
